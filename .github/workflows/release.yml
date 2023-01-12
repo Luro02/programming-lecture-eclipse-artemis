@@ -3,10 +3,11 @@
 
 name: Eclipse Artemis (Release)
 
-on:
-  push:
-    tags: "v**"
-  workflow_dispatch:
+# on:
+#   push:
+#     tags: "v**"
+#   workflow_dispatch:
+on: push
 
 jobs:
   build:
